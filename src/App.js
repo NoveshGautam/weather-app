@@ -76,7 +76,7 @@ function App() {
                         <span className="measure">
                           {weatherData.main.humidity}%
                         </span>
-                        <span>humidity</span>
+                        <span>humid</span>
                       </div>
                     </div>
                   </>
