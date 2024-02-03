@@ -3,11 +3,6 @@
   display: flex;
   justify-content: center;
 }
-
-
-
-
-
 .weather-app{
   min-height: 100vh;
   width: 600px;
