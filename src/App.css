@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.main-container {
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.weather-app{
+  min-height: 100vh;
+  width: 600px;
+  background: linear-gradient(to right,rgba(180, 221, 203, 255), rgba(98, 206, 219, 255));
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+h1 {
+  color: rgba(112, 128, 127, 255);
+  font-size: 55px;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputfield {
+  height: 40px;
+  width: 400px;
+  padding: 5px;
+  border-radius: 25px;
+  border: 0px solid;
+}
+.app-mini-container {
+  width: 400px;
+  background-color: white;
+  min-height: 60vh;
+  margin-top: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h2 {
+  color: rgba(201, 201, 201, 255);
+  font-weight: 500;
+}
+.temperature-div {
+  display: flex;
+  width: 140px;
+  margin-right: 170px;
+}
+.degree {
+  font-size: 45px;
+  font-weight: 100;
+  color: rgba(201, 201, 201, 255);
+}
+h3 {
+  margin-left: 55px;
+  margin-top: 10px;
+  color: rgb(110, 109, 109);
+}
+.temperature-range {
+  display: flex;
+  margin-left: 230px;
+  flex-direction: column;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(201, 201, 201, 255);
+}
+.weather-condition {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgba(201, 201, 201, 255);
+  width: 100%;
+  justify-content: space-evenly;
+}
+.weather-img img {
+  width: 100px;
+  height: 100px;
+  background-color: azure;
+  border-radius: 80px;
+}
+.measure {
+  font-size: 50px;
+  font-weight: 100;
+}
+.condition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
